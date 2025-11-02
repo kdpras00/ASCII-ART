@@ -8,7 +8,7 @@ Project ini berisi tiga script Python untuk mengonversi gambar, video, dan webca
 
 - Mengonversi file gambar (JPG, PNG, dll) menjadi ASCII art
 - Menampilkan ASCII art di terminal
-- **Mode berwarna** dengan ANSI escape code (seperti TikTok!)
+- **Mode berwarna** dengan ANSI escape code 
 - Opsi untuk menyimpan hasil ke file teks atau HTML
 - Mode sederhana tanpa header
 - Support berbagai format gambar
