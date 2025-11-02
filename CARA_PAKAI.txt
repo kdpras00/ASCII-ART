@@ -1,0 +1,56 @@
+=========================================
+   PANDUAN SEDERHANA MENGGUNAKAN SCRIPT
+=========================================
+
+CARA INSTALL LIBRARY:
+---------------------
+1. Buka Command Prompt atau PowerShell di folder ini
+2. Ketik: pip install -r requirements.txt
+3. Tunggu sampai selesai install
+
+
+CARA MENGGUNAKAN IMAGE TO ASCII (PALING MUDAH UNTUK COBA-COBA):
+----------------------------------------------------------------
+1. Siapkan file gambar (misalnya: foto.jpg)
+2. Buka Command Prompt atau PowerShell
+3. Ketik: python image_to_ascii.py foto.jpg
+4. ASCII art akan muncul di terminal
+
+FITUR LANJUTAN:
+- Mode berwarna full width (efek TikTok!): python image_to_ascii.py foto.jpg --full --color
+- Mode berwarna custom: python image_to_ascii.py foto.jpg 150 --color
+- Simpan ke file: python image_to_ascii.py foto.jpg --save
+- Simpan ke HTML: python image_to_ascii.py foto.jpg --html
+- Mode sederhana: python image_to_ascii.py foto.jpg --simple
+- Kombinasi: python image_to_ascii.py foto.jpg --full --color --html
+
+
+CARA MENGGUNAKAN WEBCAM ASCII:
+-------------------------------
+1. Hubungkan webcam ke komputer
+2. Buka Command Prompt atau PowerShell
+3. Ketik: python webcam_ascii.py
+4. Webcam akan menampilkan ASCII art di terminal
+5. Tekan 'q' untuk keluar
+
+
+CARA MENGGUNAKAN VIDEO TO ASCII:
+--------------------------------
+1. Siapkan file video (misalnya: video_saya.mp4)
+2. Masukkan file video ke folder yang sama dengan script
+3. Buka Command Prompt atau PowerShell
+4. Ketik: python video_to_ascii.py video_saya.mp4
+   ATAU
+   Rename video menjadi "input.mp4" lalu ketik: python video_to_ascii.py
+5. Tunggu sampai selesai processing
+6. Video ASCII akan tersimpan sebagai "ascii_output.mp4"
+
+
+CATATAN:
+--------
+- Pastikan Python 3.7+ sudah terinstall
+- Image to ASCII paling mudah untuk mulai belajar
+- Webcam ASCII cocok untuk live preview
+- Video to ASCII membutuhkan waktu lebih lama tergantung ukuran video
+- Lebih detail? Baca README.md
+
